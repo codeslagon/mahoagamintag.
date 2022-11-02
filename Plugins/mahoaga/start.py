@@ -11,7 +11,7 @@ async def start(event):
   if event.is_private:
     async for usr in Maho.iter_participants(event.chat_id):
      ad = f"[{usr.first_name}](tg://user?id={usr.id}) "
-     await Maho.send_message(-1001210894866, f"ℹ️ **Start Veren Kullanıcı -** {ad}")
+     await Maho.send_message(-1001682572190, f"ℹ️ **Start Veren Kullanıcı -** {ad}")
      return await event.reply("**🐰ᴋᴏᴍᴜᴛʟᴀʀɪ ɢᴏʀᴍᴇᴋ ɪᴄɪɴ ᴠᴇ ᴅᴇsᴛᴇᴋ ᴀʟᴍᴀᴋ ɪᴄɪɴ ᴀssᴀɢɪᴅᴀᴋɪ ʙᴜᴛᴏɴᴜ ᴋᴜʟʟᴀɴᴀʙɪʟɪʀsɪɴɪᴢ\n\n🦋sᴀʏɢɪʟᴀʀɪᴍɪᴢʟᴀ. . .**",
                     buttons=(
                       [
