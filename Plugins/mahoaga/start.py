@@ -12,7 +12,7 @@ async def start(event):
     async for usr in Maho.iter_participants(event.chat_id):
      ad = f"[{usr.first_name}](tg://user?id={usr.id}) "
      await Maho.send_message(-1001682572190, f"ℹ️ **Start Veren Kullanıcı -** {ad}")
-     return await event.reply("**🇹🇷 Türkçe\n\n⚙️ Bazı Kullanışlı Özelliklere Sahip Telegram Üye Etiketleme Botuyum . . . \n\n🇹🇷 Komutlar Butonuna Tıklayın ve Komutları Öğrenin . . .\n\n🏴󐁧󐁢󐁥󐁮󐁧󐁿 English\n\n⚙️ I'm Telegram Member Tagging Bot With Some Useful Features . . .\n\n🏴󐁧󐁢󐁥󐁮󐁧󐁿 Click Commands Button and Learn Commands . . .**",
+     return await event.reply("**🇹🇷 Türkçe\n\n⚙️ Bazı Kullanışlı Özelliklere Sahip Telegram Üye Etiketleme Botuyum . . . \n\n🇹🇷 Komutlar Butonuna Tıklayın ve Komutları Öğrenin . . .\n\n🇫🇴 English\n\n⚙️ I'm Telegram Member Tagging Bot With Some Useful Features . . .\n\n🇫🇴 Click Commands Button and Learn Commands . . .**",
                     buttons=(
                       [
                        Button.url('🐰 ᴋᴏᴍᴜᴛ ᴠᴇ ᴅᴇsᴛᴇᴋ  ', 'https://t.me/tavsandestek/4')
