@@ -15,7 +15,8 @@ async def start(event):
      return await event.reply("**🇹🇷 Türkçe\n\n⚙️ Bazı Kullanışlı Özelliklere Sahip Telegram Üye Etiketleme Botuyum . . . \n\n🇹🇷 Komutlar Butonuna Tıklayın ve Komutları Öğrenin . . .\n\n🇫🇴 English\n\n⚙️ I'm Telegram Member Tagging Bot With Some Useful Features . . .\n\n🇫🇴 Click Commands Button and Learn Commands . . .**",
                     buttons=(
                       [
-                       Button.url('🐰 ᴋᴏᴍᴜᴛ ᴠᴇ ᴅᴇsᴛᴇᴋ  ', 'https://t.me/tavsandestek/4')
+                       Button.url('🐰 ᴋᴏᴍᴜᴛ ᴠᴇ ᴅᴇsᴛᴇᴋ  ', 'https://t.me/tavsandestek/4'),
+                       Button.url('🐰 ᴋᴏᴍᴜᴛ ᴠᴇ ᴅᴇsᴛᴇᴋ  ', 'https://t.me/tavsandestek/4'),
                       ],
                     ),
                     link_preview=False
