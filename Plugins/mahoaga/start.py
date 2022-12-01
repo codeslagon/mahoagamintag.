@@ -21,6 +21,9 @@ async def start(event):
                        Button.url('🇹🇷 ᴋᴏᴍᴜᴛʟᴀʀ  ', 'https://t.me/tavsandestek/4'),
                        Button.url('🇫🇴 ᴄᴏᴍᴍᴀɴᴅ  ', 'https://t.me/tavsandestek/4'),
                       ],
+                      [
+                        Button.url('🌟 ᴍᴜᴢɪᴋ ʙᴏᴛ ', 'https://t.me/tqmuzikbot')
+                        ],
                     ),
                     link_preview=False
                    )
