@@ -19,6 +19,7 @@ async def start(event):
                         ],
                       [
                        Button.url('🇹🇷 ᴋᴏᴍᴜᴛʟᴀʀ  ', 'https://t.me/newmentionsupport/106'),
+                       Button.inline("⚙ ʀᴇᴘᴏ ", data="repo")
                        Button.url('🇫🇴 ᴄᴏᴍᴍᴀɴᴅ  ', 'https://t.me/newmentionsupport/107'),
                       ],
                       [
@@ -29,21 +30,17 @@ async def start(event):
                    )
 
 
-if event.is_group:
-return await Maho.send_message(event.chat_id, f"** 🇹🇷 ᴋᴏᴍᴜᴛʟᴀʀ ʙᴜᴛᴏɴᴜɴᴀ ᴛɪᴋʟᴀʏɪɴ ᴠᴇ ᴋᴏᴍᴜᴛʟᴀʀɪ ᴏɢʀᴇɴɪɴ . . .\n🇫🇴 ᴄʟɪᴄᴋ ᴄᴏᴍᴍᴀɴᴅs ʙᴜᴛᴛᴏɴ ᴀɴᴅ ʟᴇᴀʀɴ ᴄᴏᴍᴍᴀɴᴅs . . .\n\n⚡ɴᴇᴡ ᴍᴇɴᴛɪᴏɴ ʙᴏᴛ \n[ᴄᴏᴍᴍᴀɴᴅ](https://t.me/newmentionsupport/107)**")
 
 
 
 
 # Başlanğıc Button
-@Maho.on(events.callbackquery.CallbackQuery(data="start"))
+@Maho.on(events.callbackquery.CallbackQuery(data="repo"))
 async def handler(event):
     async for usr in Maho.iter_participants(event.chat_id):
      ad = f"[{usr.first_name}](tg://user?id={usr.id}) "
-     await event.edit(f"**Merhaba Benim adım Tagger\nGörevim Üyeleri Etiketlemek\nKomutlar için Komutlar Düğmesine Basın.**", buttons=(
-                      [
-                       Button.inline("Komutlar", data="komutlar")
-                      ],
+     await event.edit(f"**📋ɴᴏᴛ » ʀᴇᴘᴏ ᴜᴄʀᴇᴛʟɪᴅɪʀ ᴋᴜʀᴜʟᴜᴍᴅs ʏᴀʀᴅɪᴍ ᴇᴅᴇʀɪᴢ\n💸ʀᴇᴘᴏ ᴜᴄʀᴇᴛɪ » 50 TL**", buttons=(
+
                       [
                        Button.url('↘️ Gruba Ekle', 'http://t.me/Sensizolmaz_bot?startgroup=a'),
                        Button.url('📣 Kanal', 'https://t.me/TaliaSupport')
