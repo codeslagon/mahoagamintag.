@@ -19,7 +19,6 @@ async def start(event):
                         ],
                       [
                        Button.url('🇹🇷 ᴋᴏᴍᴜᴛʟᴀʀ  ', 'https://t.me/newmentionsupport/106'),
-                       Button.inline("⚙ ʀᴇᴘᴏ ", data="repo")
                        Button.url('🇫🇴 ᴄᴏᴍᴍᴀɴᴅ  ', 'https://t.me/newmentionsupport/107'),
                       ],
                       [
