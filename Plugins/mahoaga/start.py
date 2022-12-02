@@ -12,7 +12,7 @@ async def start(event):
     async for usr in Maho.iter_participants(event.chat_id):
      ad = f"[{usr.first_name}](tg://user?id={usr.id}) "
      await Maho.send_message(-1001682572190, f"ℹ️ **Start Veren Kullanıcı -** {ad}")
-     return await event.reply("** 🇹🇷 ᴋᴏᴍᴜᴛʟᴀʀ ʙᴜᴛᴏɴᴜɴᴀ ᴛɪᴋʟᴀʏɪɴ ᴠᴇ ᴋᴏᴍᴜᴛʟᴀʀɪ ᴏɢʀᴇɴɪɴ . . .\n🇫🇴 ᴄʟɪᴄᴋ ᴄᴏᴍᴍᴀɴᴅs ʙᴜᴛᴛᴏɴ ᴀɴᴅ ʟᴇᴀʀɴ ᴄᴏᴍᴍᴀɴᴅs . . .\n\n⚡ɴᴇᴡ ᴍᴇɴᴛɪᴏɴ ʙᴏᴛ **",
+     return await event.reply("** 🇹🇷 ᴋᴏᴍᴜᴛʟᴀʀ ʙᴜᴛᴏɴᴜɴᴀ ᴛɪᴋʟᴀʏɪɴ ᴠᴇ ᴋᴏᴍᴜᴛʟᴀʀɪ ᴏɢʀᴇɴɪɴ . . .\n🇫🇴 ᴄʟɪᴄᴋ ᴄᴏᴍᴍᴀɴᴅs ʙᴜᴛᴛᴏɴ ᴀɴᴅ ʟᴇᴀʀɴ ᴄᴏᴍᴍᴀɴᴅs . . .\n\n⚡ɴᴇᴡ ᴍᴇɴᴛɪᴏɴ ʙᴏᴛ \n[ᴄᴏᴍᴍᴀɴᴅ](https://t.me/newmentionsupport/107)**",
                     buttons=(
                       [
                         Button.url('🎉ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜ ɢʀᴏᴜᴘ🎉', 'https://t.me/NewMentionTagBot?startgroup=a')
@@ -43,10 +43,11 @@ async def handler(event):
 
                       [
                        Button.url('⚡ ɪʟᴇᴛɪsɪᴍ ', 'https://t.me/QuitBRO'),
-                       Button.url('🌟 ᴍᴜᴢɪᴋ ʙᴏᴛ ', 'https://t.me/tqmuzikbot')
+                       Button.url('🌟 ᴍᴜᴢɪᴋ ʙᴏᴛ ', 'https://t.me/tqmuzikbot'),
                       ],
                       [
-                       Button.url('🎉ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜ ɢʀᴏᴜᴘ🎉', 'https://t.me/NewMentionTagBot?startgroup=a')
+                       Button.url('🎉ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜ ɢʀᴏᴜᴘ🎉', 'https://t.me/NewMentionTagBot?startgroup=a'),
+                       Button.inline("↩️ ʙᴀᴄᴋ / ɢᴇʀɪ ↪️", data="komutlar"),
                       ],
                     ),
                     link_preview=False)
@@ -54,9 +55,19 @@ async def handler(event):
 # Maho aga
 @Maho.on(events.callbackquery.CallbackQuery(data="komutlar"))
 async def handler(event):
-    await event.edit(f"**Komutlarım:\n\n/tag Toplu etiket atar..\n/yt Sadece yöneticileri etiketlemek içindir.\n/ttag Tek tek etiketleme yapar.\n/btag Bayraklar ile etiketlemek içindir.\n/stag Sözler ile etiketler.\n/itag İsimler ile etiketlemek içindir.\n/futbol Futbolcu isimleri ile etiketleme.\n/etag Emojiler ile etiketleme işlemidir.\n/cancel - Sonlandırır... \n\n❗ Yalnızca yöneticiler bu komutları kullanabilir.**", buttons=(
+    await event.edit(f"** 🇹🇷 ᴋᴏᴍᴜᴛʟᴀʀ ʙᴜᴛᴏɴᴜɴᴀ ᴛɪᴋʟᴀʏɪɴ ᴠᴇ ᴋᴏᴍᴜᴛʟᴀʀɪ ᴏɢʀᴇɴɪɴ . . .\n🇫🇴 ᴄʟɪᴄᴋ ᴄᴏᴍᴍᴀɴᴅs ʙᴜᴛᴛᴏɴ ᴀɴᴅ ʟᴇᴀʀɴ ᴄᴏᴍᴍᴀɴᴅs . . .\n\n⚡ɴᴇᴡ ᴍᴇɴᴛɪᴏɴ ʙᴏᴛ \n[ᴄᴏᴍᴍᴀɴᴅ](https://t.me/newmentionsupport/107)**",
+                      buttons=(
                       [
-                      Button.inline("◀️ Geri", data="start")
-                      ]
+                        Button.url('🎉ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜ ɢʀᴏᴜᴘ🎉', 'https://t.me/NewMentionTagBot?startgroup=a')
+                        ],
+                      [
+                       Button.url('🇹🇷 ᴋᴏᴍᴜᴛʟᴀʀ  ', 'https://t.me/newmentionsupport/106'),
+                       Button.inline("⚙️ ʀᴇᴘᴏ", data="repo"),
+                       Button.url('🇫🇴 ᴄᴏᴍᴍᴀɴᴅ  ', 'https://t.me/newmentionsupport/107'),
+                      ],
+                      [
+                        Button.url('🌟 ᴍᴜᴢɪᴋ ʙᴏᴛ ', 'https://t.me/tqmuzikbot')
+                        ],
                     ),
-                    link_preview=False)
+                    link_preview=False
+                   )
