@@ -29,35 +29,8 @@ async def start(event):
                    )
 
 
-  if event.is_group:
-    return await Maho.send_message(event.chat_id, f"**Beni Grubuna Aldığın için Teşekkürler ✨**")
-  buttons=(
 
-                      [
 
-                        Button.url('🎉ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜ ɢʀᴏᴜᴘ🎉', 'https://t.me/NewMentionTagBot?startgroup=a')
-
-                        ],
-
-                      [
-
-                       Button.url('🇹🇷 ᴋᴏᴍᴜᴛʟᴀʀ  ', 'https://t.me/newmentionsupport/106'),
-
-                       Button.url('🇫🇴 ᴄᴏᴍᴍᴀɴᴅ  ', 'https://t.me/newmentionsupport/107'),
-
-                      ],
-
-                      [
-
-                        Button.url('🌟 ᴍᴜᴢɪᴋ ʙᴏᴛ ', 'https://t.me/tqmuzikbot')
-
-                        ],
-
-                    ),
-
-                    link_preview=False
-
-                   )
 
 # Başlanğıc Button
 @Maho.on(events.callbackquery.CallbackQuery(data="start"))
