@@ -44,10 +44,10 @@ async def handler(event):
                       [
                        Button.url('⚡ ɪʟᴇᴛɪsɪᴍ ', 'https://t.me/QuitBRO'),
                        Button.url('🌟 ᴍᴜᴢɪᴋ ʙᴏᴛ ', 'https://t.me/tqmuzikbot'),
+                       Button.url('🎉ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜ ɢʀᴏᴜᴘ🎉', 'https://t.me/NewMentionTagBot?startgroup=a'),
                       ],
                       [
-                       Button.url('🎉ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜ ɢʀᴏᴜᴘ🎉', 'https://t.me/NewMentionTagBot?startgroup=a'),
-                       Button.inline("↩️ ʙᴀᴄᴋ / ɢᴇʀɪ ↪️", data="komutlar"),
+                       Button.inline("↩️ ʙᴀᴄᴋ ", data="komutlar"),
                       ],
                     ),
                     link_preview=False)
