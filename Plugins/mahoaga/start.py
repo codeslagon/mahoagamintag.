@@ -42,11 +42,11 @@ async def handler(event):
      await event.edit(f"**📋ɴᴏᴛ » ʀᴇᴘᴏ ᴜᴄʀᴇᴛʟɪᴅɪʀ ᴋᴜʀᴜʟᴜᴍᴅs ʏᴀʀᴅɪᴍ ᴇᴅᴇʀɪᴢ\n💸ʀᴇᴘᴏ ᴜᴄʀᴇᴛɪ » 50 TL**", buttons=(
 
                       [
-                       Button.url('↘️ Gruba Ekle', 'http://t.me/Sensizolmaz_bot?startgroup=a'),
-                       Button.url('📣 Kanal', 'https://t.me/TaliaSupport')
+                       Button.url('⚡ ɪʟᴇᴛɪsɪᴍ ', 'https://t.me/QuitBRO'),
+                       Button.url('🌟 ᴍᴜᴢɪᴋ ʙᴏᴛ ', 'https://t.me/tqmuzikbot')
                       ],
                       [
-                       Button.url('🇹🇷 Sahibim', 'https://t.me/Mahoaga')
+                       Button.url('🎉ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜ ɢʀᴏᴜᴘ🎉', 'https://t.me/NewMentionTagBot?startgroup=a')
                       ],
                     ),
                     link_preview=False)
