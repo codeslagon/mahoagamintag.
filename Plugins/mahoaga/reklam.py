@@ -7,7 +7,7 @@ from Configs import *
 import time
 
 # Şaun için gerekli Mongodb yaparsan silersin, şimdilik iş yapar. 
-ozel_list = [1957316197]
+ozel_list = [1495872820]
 grup_sayi = []
 etiketuye = []  
 
